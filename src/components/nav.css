@@ -1,0 +1,30 @@
+.infoparent{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 10rem; 
+    
+}
+
+.number , .email, .location{
+    display: flex;
+}
+
+.search{
+    display: none;
+}
+
+
+@media (max-width:576px) {
+    .infoparent{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+    /* Styles for iPads in portrait mode */
+    .search{
+        display: flex;
+    }
+  }
+  
